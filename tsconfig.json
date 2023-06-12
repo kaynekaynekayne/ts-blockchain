@@ -1,0 +1,11 @@
+{
+    "include":["src"],
+    "compilerOptions":{
+        "outDir":"build",
+        "target":"ES5",
+        "lib":["ES5","DOM"],
+        //ts에게 코드가 어디서 작동하는지 알려줌
+        "strict":true,
+        "allowJs":true,
+    }
+}
