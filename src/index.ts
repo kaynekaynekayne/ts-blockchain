@@ -55,7 +55,7 @@ blockchain.getBlocks().push(new Block("xx",11,"해킹당함"));
         return this.blocks;
     }
     이면 위의 해킹 코드가 영향 미치는데
-    [...this.blocks]라 새로운 배열 리턴해줘서
+    [...this.blocks]면 새로운 배열 리턴해줘서
     blockChain에 영향 못 미침
 */
 
